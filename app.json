@@ -1,0 +1,23 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/map/map",
+    "pages/search/search"
+  ],
+  "window": {
+    
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "获取您的位置，一遍在地图上显示"
+    }
+  },
+  "plugins": {
+    "chooseLocation": {
+      "version": "1.0.5",
+      "provider": "wx76a9a06e5b4e693e"
+    }
+  },  
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

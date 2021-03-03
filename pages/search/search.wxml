@@ -1,0 +1,16 @@
+<view class="search-container">
+   <view class="search-box">
+    <input type="text"  model:value="{{area}}" bindconfirm="searchAreaOnMap" class="search-input" placeholder="输入目的地" confirm-type="search" />
+   </view>
+   <view class="search-result">
+      <view class="search-record" wx:for="{{searchAreaList}}" 
+      data-lat="{{item.location.lat}}" data-lng="{{item.location.lng}}" bindtap="jumpToMapAndMark">
+         <text class="search-title">{{item.title}}</text>
+         <view class="space"></view>
+         <view class="search-content">
+            <view class="search-sign">{{item.category}}</view>
+            <text class="search-desc">{{item.address}}</text>
+         </view>
+      </view>
+   </view>
+</view>

@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view class="index-container .clearfix">
+  <view class="title">
+    <text class="little-english-title">G R E E N P L A N T</text>
+    <text class="little-chinese-title">绿色是生命之源  绿色是生命之根</text>
+  </view>
+  <text class="slogan">保护我们共同家园</text>
+  <text class="slogan-english">To protect our common home</text>
+  <button type="primary" class="index-btn" bindtap="handleJoinUsClick">快来加入我们吧</button>
+  <text class="content-english">PROTECT THE GREEN</text>
+  <text class="content-chinese">守护绿色 永爱浇灌美好家园</text>
+</view>

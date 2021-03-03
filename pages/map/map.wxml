@@ -1,0 +1,19 @@
+<view class="map-container">
+  <map class="map" 
+    longitude="{{longitude}}" 
+    latitude="{{latitude}}"
+    markers="{{markers}}" 
+    scale="{{scale}}" 
+    show-location="true">
+    <cover-view class="map-search" bindtap="mapSearchClick">
+      <cover-view class="search-text">搜索地点</cover-view>
+    </cover-view>
+    <cover-view class="choose-point" bindtap="mapChoosePotinClick"></cover-view>
+    <cover-view class="back-center" bindtap="mapBackCenterClick"></cover-view>
+    <cover-view slot="callout">
+      <cover-view class="customCallout" marker-id="1">
+        <cover-view >点击在这里植树！</cover-view>
+      </cover-view>
+    </cover-view>
+  </map>
+</view>
